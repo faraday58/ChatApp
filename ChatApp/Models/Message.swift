@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Message {
+struct Message: Codable {
     var id: String
     var timestamp: Date
     var text: String
